@@ -16,7 +16,13 @@ function Login() {
                />
               </div>
         
-               <button onClick={authenticate} className="bg-sky-200 rounded-lg p-4 text-black animate-pulse">LOGIN TO METATOR</button>
+               <button onClick={authenticate} className="bg-sky-200 items-center flex  rounded-lg p-4 text-black animate-pulse ">LOGIN TO METATOR WITH  
+               <Image
+                   src="/metaicon.png"
+                  className="item-center"
+                  width={35}
+                  height={35}
+               /></button>
             </div>
 
             <div className="w-full h-screen">
